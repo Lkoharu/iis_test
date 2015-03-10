@@ -1,0 +1,22 @@
+* C:\Users\denjo\Documents\BEF.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Thu Jun 12 16:26:20 2014
+
+
+
+** Analysis setup **
+.ac DEC 1000 10 100.00K
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "BEF.net"
+.INC "BEF.als"
+
+
+.probe
+
+
+.END
